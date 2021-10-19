@@ -18,8 +18,9 @@ public class Contato {
     private String telefone;
     @Column(nullable = false)
     private String email;
+    @Column
     private String urlAvatar;
-    
+
     public Long getId() {
         return id;
     }
